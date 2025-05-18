@@ -1,0 +1,11 @@
+torch
+torchvision
+pandas
+scikit-learn
+fastapi
+uvicorn
+mlflow      # optional, for experiment logging
+dvc         # optional, for pipeline versioning
+Pillow      # for image loading in FastAPI
+python-multipart  # for file uploads in FastAPI
+kaggle
