@@ -2,10 +2,13 @@ torch
 torchvision
 pandas
 scikit-learn
+Pillow
 fastapi
 uvicorn
+streamlit
+kaggle
 mlflow      # optional, for experiment logging
 dvc         # optional, for pipeline versioning
-Pillow      # for image loading in FastAPI
 python-multipart  # for file uploads in FastAPI
-kaggle
+numpy<2.0
+seaborn

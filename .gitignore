@@ -1,18 +1,10 @@
-# Ignore virtual environment
-venv/
-
-data/
-
-# Ignore dataset zip files
-*.zip
-
-# Ignore Python cache files
 __pycache__/
 *.py[cod]
-
-# Ignore Jupyter Notebook checkpoints (if using notebooks)
-.ipynb_checkpoints/
-
-# Ignore logs or temporary files
-*.log
-*.tmp
+.venv/
+.env
+*.pth
+*.zip
+data/
+models/
+logs/
+data_processed
